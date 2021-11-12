@@ -1,1 +1,17 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Demo Render HTML by JavaScript</h2>
+
+    <p id="transaction_amount">Loading transaction information: ...</p>
+
+    <script>
+      function greet(){
+        document.getElementById("transaction_amount").innerHTML = "Total: $7,500";
+      }
+      setTimeout(greet, 3000);
+    </script>
+
+</body>
+</html>
